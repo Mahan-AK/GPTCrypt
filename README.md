@@ -7,6 +7,10 @@ This script uses the way transformer models generate output to hide a message in
 ## Requirements
 
 This script currently uses the `GPT-2` model from OpenAI to function but other transformer models should be able to be used. In my experience this model was fairly fast and had sufficiently convincing outputs. `GPT-2` model can be found in the [huggingface page](https://huggingface.co/gpt2).
+To import and use model you need to install the `transformers` model using the following command:
+```
+$ pip install transformers
+```
 
 ## Usage
 

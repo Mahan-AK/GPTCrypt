@@ -20,11 +20,11 @@ class Decoder:
 print("Initializing model...\n")
 
 # If you have save the model locally use these commands to import the model
-tokenizer = GPT2Tokenizer.from_pretrained("/opt/NLP_Models/gpt2-model/", local_files_only=True)
-model = GPT2LMHeadModel.from_pretrained("/opt/NLP_Models/gpt2-model/", local_files_only=True)
+# tokenizer = GPT2Tokenizer.from_pretrained("/opt/NLP_Models/gpt2-model/", local_files_only=True)
+# model = GPT2LMHeadModel.from_pretrained("/opt/NLP_Models/gpt2-model/", local_files_only=True)
 
-# tokenizer = GPT2Tokenizer.from_pretrained('gpt2')
-# model = GPT2LMHeadModel.from_pretrained('gpt2')
+tokenizer = GPT2Tokenizer.from_pretrained('gpt2')
+model = GPT2LMHeadModel.from_pretrained('gpt2')
 
 charset = [' ', 'a', 'i', 'n', 'm', '{', '}', 'd', 'l', 's', 'r', 'h', 'o', 'u', 'e', 'y', 'b', 'x', 't', 'g', 'j', 'z', 'v', 'k', 'c', 'p', 'f', '?', 'w', 'q']
 init_len = 5
